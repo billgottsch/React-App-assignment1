@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.toDoListButton {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #1560FB;
+  color: #FFF;
+  border: 2px solid #1560FB;
+}
+
+.toDoListButton:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.newAssignmentAdd {
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
