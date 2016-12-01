@@ -2,6 +2,7 @@
   "name": "React-App-assignment1",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://billgottsch.github.io/React-App-assignment1",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
