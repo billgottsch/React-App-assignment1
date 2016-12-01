@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://billgottsch.github.io/React-App-assignment1",
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "react-scripts": "0.7.0"
   },
   "dependencies": {
