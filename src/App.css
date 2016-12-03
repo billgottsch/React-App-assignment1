@@ -1,16 +1,21 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  margin-top: 2rem;
   height: 80px;
 }
 
 .App-header {
   padding: 10px;
   font-size: 24px;
-  text-align: center;
+
+}
+
+form {
+  margin: 0 auto;
 }
 
 .App-intro {
@@ -21,15 +26,19 @@
   padding: 10px;
   font-size: 16px;
   margin: 10px;
-  background-color: #1560FB;
+  background-color: #EFA41F;
   color: #FFF;
-  border: 2px solid #1560FB;
+  border: 2px solid #EFA41F;
 }
 
 .toDoListButton:hover {
-  background-color: #003399;
-  border: 2px solid #003399;
+  background-color: #CB8812;
+  border: 2px solid #CB8812;
   cursor: pointer;
+}
+
+.ion-ios-star-outline {
+  font-size: 25px;
 }
 
 .newAssignmentAdd {
@@ -37,7 +46,9 @@
   font-size: 16px;
 }
 
-
+.thingstodo {
+  text-shadow: #333 1px 1px;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

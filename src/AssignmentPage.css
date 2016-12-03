@@ -10,9 +10,36 @@
 }
 
 .AssignmentPage__listitem {
+  cursor: pointer;
+  box-shadow: 1px 1px;
   color: #333;
-  background-color: rgba(255,255,255,.5);
-  padding: 15px;
-  margin-bottom: 15px;
+  background-color: rgba(255,255,255,.7);
+  padding: 12px;
+  margin-bottom: 10px;
   border-radius: 5px;
+}
+
+
+.item__text {
+  cursor: pointer;
+  padding: 1rem;
+  margin: 0;
+}
+
+/*.AssignmentPage__listitem i {
+  visibility: hidden;
+  color: #black;
+}
+
+.AssignmentPage__listitem i:hover {
+  visibility: visible;
+}*/
+
+.noAssignment__text {
+  color: #EFA41F;
+  text-shadow: #333 1px 1px;
+}
+
+.ion-trash-a {
+  color: red;
 }
