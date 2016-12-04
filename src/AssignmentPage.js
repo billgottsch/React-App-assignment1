@@ -13,7 +13,7 @@ export default class List extends Component {
               <li
                 className="AssignmentPage__listitem"
                 key={index}>
-                <i className="icon ion-ios-star-outline" onClick={this.props.onFavoriteClick.bind(this, index)} style={{color: item.favorite ? 'red' : 'auto'}}></i>
+                <i className="icon ion-android-star" onClick={this.props.onFavoriteClick.bind(this, index)} style={{color: item.favorite ? 'red' : 'black'}}></i>
                 <span>{item.text}</span>
                 <i className="icon ion-trash-a" onClick={this.props.onItemClick.bind(this, index)}></i>
             </li>)

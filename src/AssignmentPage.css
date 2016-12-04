@@ -5,7 +5,7 @@
   margin: 0 auto;
   list-style: none;
   padding-left: 0;
-  width: 255px;
+  width: 300px;
   text-align: center;
 }
 
@@ -17,13 +17,14 @@
   padding: 12px;
   margin-bottom: 10px;
   border-radius: 5px;
+  width: 100%;
 }
 
 
 .item__text {
-  cursor: pointer;
   padding: 1rem;
   margin: 0;
+  text-shadow: #333 .5px .5px;
 }
 
 /*.AssignmentPage__listitem i {
@@ -41,5 +42,19 @@
 }
 
 .ion-trash-a {
-  color: red;
+  color: #EFA41F;
+  padding-left: 30px;
+  cursor: pointer;
+  text-shadow: #333 .5px .5px;
+  float:right;
+
+
+}
+
+.ion-android-star {
+  padding-right: 30px;
+  cursor: pointer;
+  text-shadow: #333 .5px .5px;
+  float:left;
+
 }

@@ -66,7 +66,7 @@ class App extends Component { //this thing is what "this" refers to throughout t
             <input className="newAssignmentAdd" type="text" tabIndex="0" value={this.state.newItemValue} placeholder="enter a task..." onChange={this.onNewItemValueChanged.bind(this)} />
             <button onChange={this.onNewItemValueChanged.bind(this)} className="toDoListButton">add</button>
           </form>
-            <AssignmentPage items={this.state.assignments} onItemClick={this.onItemClick.bind(this)}/>
+            <AssignmentPage items={this.state.assignments} onFavoriteClick={this.onFavoriteClick.bind(this)} onItemClick={this.onItemClick.bind(this)}/>
 
         </div>
       );
